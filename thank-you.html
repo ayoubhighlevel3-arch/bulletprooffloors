@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Bulletproof Floors</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="icon" type="image/webp" sizes="16x16"
+        href="https://res.cloudinary.com/diptffkzh/image/upload/v1768782641/BPF_Logo_rhzeyc.webp">
+    <link rel="icon" type="image/webp" sizes="32x32"
+        href="https://res.cloudinary.com/diptffkzh/image/upload/v1768782641/BPF_Logo_rhzeyc.webp">
+    <link rel="icon" type="image/webp" sizes="192x192"
+        href="https://res.cloudinary.com/diptffkzh/image/upload/v1768782641/BPF_Logo_rhzeyc.webp">
+    <link rel="icon" type="image/webp" sizes="512x512"
+        href="https://res.cloudinary.com/diptffkzh/image/upload/v1768782641/BPF_Logo_rhzeyc.webp">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://res.cloudinary.com/diptffkzh/image/upload/v1768782641/BPF_Logo_rhzeyc.webp">
+    <style>
+        /* Inherit global styles from style.css */
+
+        .thank-you-section {
+            background-color: var(--color-white);
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 1rem;
+        }
+
+        .thank-you-card {
+            background: white;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--color-mist);
+            padding: 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-top: 4px solid var(--color-volt);
+            /* Brand Accent */
+        }
+
+        /* Success Animation */
+        .success-checkmark {
+            width: 80px;
+            height: 80px;
+            background: rgba(22, 163, 74, 0.1);
+            /* Success Green Light */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            color: var(--color-success);
+        }
+
+        .success-checkmark svg {
+            width: 40px;
+            height: 40px;
+            stroke-width: 3;
+            stroke: currentColor;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-dasharray: 100;
+            stroke-dashoffset: 0;
+        }
+
+        h1 {
+            color: var(--color-navy);
+            font-size: 2.25rem;
+            margin-bottom: 0.5rem;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            color: var(--color-text-muted);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Info Box */
+        .info-box {
+            background: #F8FAFC;
+            border: 1px solid var(--color-mist);
+            border-radius: 4px;
+            padding: 1.5rem;
+            text-align: left;
+            margin-bottom: 2.5rem;
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            color: var(--color-volt);
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+
+        .info-content h3 {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--color-text-muted);
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        .info-content p {
+            font-size: 1rem;
+            color: var(--color-navy);
+            margin: 0;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        .info-content strong {
+            color: var(--color-navy);
+            background: rgba(234, 179, 8, 0.2);
+            /* Volt Light */
+            padding: 0 4px;
+            border-radius: 2px;
+        }
+
+        @media(max-width: 600px) {
+
+            /* Section Spacing */
+            .thank-you-section {
+                padding: 2.5rem 1rem;
+                min-height: 70vh;
+            }
+
+            /* Card Layout */
+            .thank-you-card {
+                padding: 2rem 1.5rem;
+                border-radius: 6px;
+            }
+
+            /* Success Checkmark */
+            .success-checkmark {
+                width: 64px;
+                height: 64px;
+                margin-bottom: 1.5rem;
+            }
+
+            .success-checkmark svg {
+                width: 32px;
+                height: 32px;
+            }
+
+            /* Typography */
+            h1 {
+                font-size: 1.75rem;
+                /* 28px - optimized for mobile */
+                margin-bottom: 0.75rem;
+                letter-spacing: 0.5px;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+                /* 16px - standard mobile size */
+                line-height: 1.5;
+                margin-bottom: 2rem;
+            }
+
+            /* Info Box */
+            .info-box {
+                padding: 1.25rem;
+                margin-bottom: 2rem;
+                gap: 0.75rem;
+                flex-direction: row;
+            }
+
+            .info-icon {
+                font-size: 1.25rem;
+            }
+
+            .info-content h3 {
+                font-size: 0.7rem;
+                margin-bottom: 0.375rem;
+            }
+
+            .info-content p {
+                font-size: 0.95rem;
+                line-height: 1.4;
+            }
+
+            /* Button - Optimized Touch Target */
+            .btn-cta {
+                min-height: 48px;
+                /* Minimum touch target size */
+                padding: 14px 24px;
+                font-size: 0.95rem;
+                letter-spacing: 0.5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Standard Header -->
+    <header>
+        <div class="main-header">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <div class="logo-text">
+                        <div class="logo-main" style="font-size: 1.2rem;">Bulletproof Floors <span>Coatings</span></div>
+                        <div class="logo-tagline">Premium Floor Solutions</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="thank-you-section">
+        <div class="thank-you-card">
+            <div class="success-checkmark">
+                <svg viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+            </div>
+
+            <h1 id="dynamic-title">Mission Received</h1>
+            <p class="subtitle" id="dynamic-subtitle">
+                We've received your request. We'll be in touch shortly.
+            </p>
+
+            <div class="info-box">
+                <div class="info-icon">➤</div>
+                <div class="info-content">
+                    <h3>Next Step</h3>
+                    <p id="dynamic-instruction">
+                        Check your email or phone for updates from our team.
+                    </p>
+                </div>
+            </div>
+
+            <a href="index.html" class="btn btn-cta" style="width: 100%; text-align: center;">Return to Base</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Company Info -->
+                <div>
+                    <a href="index.html" class="logo" style="margin-bottom: 1rem;">
+                        <div class="logo-text">
+                            <div class="logo-main">Bulletproof Floors <span>Coatings</span></div>
+                            <div class="logo-tagline">Premium Floor Solutions</div>
+                        </div>
+                    </a>
+                    <p style="margin-bottom: 1rem;">Transforming your concrete surfaces with premium durability. Serving
+                        the
+                        local
+                        community since 2019.</p>
+                    <div class="top-bar-socials">
+                        <span>FB</span> <span>IG</span> <span>LI</span>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="process.html">Our Process</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Packages -->
+
+
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>📍 San Angelo, TX</p>
+                    <p>📞 +1 325-716-0352</p>
+                    <p>📧 frank@bulletproof-floors.com</p>
+                    <p>🕒 Mon-Sun: 8am - 5pm</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div>&copy; 2025 Bulletproof Floors. All rights reserved.</div>
+                <div class="legal-links">
+                    <a href="terms.html">Terms &amp; Conditions</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="refund.html">Refund Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

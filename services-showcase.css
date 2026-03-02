@@ -1,0 +1,353 @@
+/* =========================================
+   New Services Showcase Section (Modern)
+   ========================================= */
+.services-showcase {
+    padding: 4.25rem 0 5rem 0;
+    background-color: #1A1A1A;
+    /* Standard Dark */
+    background-image:
+        radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.03) 0%, transparent 50%);
+}
+
+/* Services Section Header - Solid Gold Style (Matches NEXT STEPS) */
+.services-showcase .section-badge {
+    background: #FF5F00;
+    color: #1A1A1A;
+    border-left: none;
+    /* Override global style */
+
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    margin-bottom: 1.5rem;
+
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.2);
+}
+
+.services-showcase .section-header h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    /* Tighter gap to subtitle */
+    color: #FFFFFF !important;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+.services-showcase .section-header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    /* Smaller as requested */
+    color: var(--color-graphite);
+    /* Matches Mission style */
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    /* Tighter gap to grid */
+    margin-top: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    grid-auto-rows: 500px;
+}
+
+
+
+/* Highlight First Card (Garages - Flagship Gold) */
+.service-card-new:nth-child(1) {
+    border: 2px solid rgba(212, 175, 55, 0.6);
+    /* Gold border for flagship */
+    box-shadow: 0 10px 25px -5px rgba(212, 175, 55, 0.15);
+}
+
+.service-card-new:nth-child(1)::before {
+    content: "Most Popular";
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: linear-gradient(135deg, #FF5F00 0%, #CC4D00 100%);
+    /* Gold gradient */
+    color: #1A1A1A;
+    /* Dark text on gold */
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 20px;
+    z-index: 5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Gloss Physics Effect */
+.service-card-new {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(212, 175, 55, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    display: block;
+    text-decoration: none;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    background: #1A1C24;
+    /* Surface warm tone */
+}
+
+.service-card-new::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y),
+            rgba(255, 255, 255, 0.15),
+            transparent 40%);
+    z-index: 3;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+}
+
+.service-card-new:hover::after {
+    opacity: 1;
+}
+
+.service-card-new:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.3), 0 0 30px rgba(212, 175, 55, 0.2);
+    border-color: rgba(212, 175, 55, 0.5);
+}
+
+.service-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    opacity: 0.9;
+}
+
+.service-card-new:hover .service-card-image {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.service-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            rgba(26, 26, 26, 0.05) 0%,
+            rgba(26, 26, 26, 0.3) 50%,
+            rgba(26, 26, 26, 0.85) 100%);
+    z-index: 1;
+}
+
+.service-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 2.5rem 1.25rem 2.5rem;
+    z-index: 4;
+    /* Above gloss */
+    color: white;
+    transform: translateY(15px);
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-card-new:hover .service-content {
+    transform: translateY(0);
+}
+
+/* Typography Refresh */
+.service-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: -0.01em;
+}
+
+.service-feature {
+    display: inline-block;
+    font-size: 0.75rem;
+    /* Standard readable size */
+    font-weight: 800;
+    color: #1A1A1A;
+    background: linear-gradient(135deg, #FF9F1C 0%, #FF5F00 100%);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(212, 175, 55, 0.3);
+}
+
+.service-desc {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 1.5rem;
+    max-width: 90%;
+    line-height: 1.5;
+    /* Hidden initially */
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    font-weight: 400;
+    transform: translateY(10px);
+}
+
+.service-card-new:hover .service-desc {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 1.5rem;
+    transform: translateY(0);
+}
+
+.service-link-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 600;
+    color: white;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s ease 0.1s;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.service-card-new:hover .service-link-icon {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Mobile Optimization: Horizontal Scroll Carousel */
+@media (max-width: 768px) {
+
+    /* Reduce section padding - less wasted space */
+    .services-showcase {
+        padding: 2.5rem 0;
+    }
+
+    /* Tighten header spacing */
+    .services-showcase .section-badge {
+        margin-bottom: 0.5rem;
+    }
+
+    .services-showcase .section-header h2 {
+        font-size: 1.5rem;
+        /* Reduced to fit on one line */
+        margin-bottom: 0.5rem;
+        letter-spacing: -0.5px;
+    }
+
+    .services-showcase .section-header p {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Scrollable carousel container */
+    .services-grid {
+        display: flex;
+        overflow-x: auto;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        grid-template-columns: none;
+        grid-auto-rows: auto;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin: 0 -1.5rem;
+    }
+
+    /* Hide Scrollbar */
+    .services-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .services-grid {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .service-card-new {
+        min-width: 90vw;
+        /* Bigger peek effect - shows next card */
+        max-width: 90vw;
+        height: 400px;
+        scroll-snap-align: center;
+        flex-shrink: 0;
+    }
+
+    .service-content {
+        padding: 1.5rem;
+    }
+
+    .service-title {
+        font-size: 1.75rem;
+    }
+
+    .service-desc {
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Ensure Flagship Badge fits */
+    .service-card-new:nth-child(1)::before {
+        top: 1rem;
+        right: 1rem;
+        font-size: 0.75rem;
+    }
+}
+
+
+/* Touch Device Optimizations */
+@media (hover: none) {
+    .service-card-new:hover {
+        transform: none;
+        /* Disable lift on touch */
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        /* Reset shadow */
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Ensure Flagship stays highlighted */
+    .service-card-new:nth-child(1) {
+        transform: translateY(0);
+        /* padding removed to fix border issue */
+    }
+
+    .service-link-icon {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .service-desc {
+        opacity: 1;
+        height: auto;
+        margin-bottom: 1rem;
+        transform: translateY(0);
+    }
+}
