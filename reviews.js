@@ -22,7 +22,7 @@ const reviewsData = [
     {
         name: "Kristen Thompson",
         date: "4 years ago",
-        text: "I can’t believe this is my garage—I can see the floor again. We moved to Florida and had no time to organize. Bulletproof Floors was professional and easy to work with, and they completely transformed the space."
+        text: "I can’t believe this is my garage—I can see the floor again. We recently remodeled and had no time to organize. Bulletproof Floors was professional and easy to work with, and they completely transformed the space."
     },
     {
         name: "Adriana Simon",

@@ -6,8 +6,8 @@
     background-color: #1A1A1A;
     /* Standard Dark */
     background-image:
-        radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.03) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.03) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(255, 95, 0, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255, 95, 0, 0.03) 0%, transparent 50%);
 }
 
 /* Services Section Header - Solid Gold Style (Matches NEXT STEPS) */
@@ -27,7 +27,7 @@
     letter-spacing: 2px;
 
     border-radius: 4px;
-    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.2);
+    box-shadow: 0 4px 10px rgba(255, 95, 0, 0.2);
 }
 
 .services-showcase .section-header h2 {
@@ -66,9 +66,9 @@
 
 /* Highlight First Card (Garages - Flagship Gold) */
 .service-card-new:nth-child(1) {
-    border: 2px solid rgba(212, 175, 55, 0.6);
+    border: 2px solid rgba(255, 95, 0, 0.6);
     /* Gold border for flagship */
-    box-shadow: 0 10px 25px -5px rgba(212, 175, 55, 0.15);
+    box-shadow: 0 10px 25px -5px rgba(255, 95, 0, 0.15);
 }
 
 .service-card-new:nth-child(1)::before {
@@ -96,11 +96,11 @@
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(212, 175, 55, 0.1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 95, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     display: block;
     text-decoration: none;
-    border: 1px solid rgba(212, 175, 55, 0.2);
+    border: 1px solid rgba(255, 95, 0, 0.2);
     background: #1A1C24;
     /* Surface warm tone */
 }
@@ -127,8 +127,8 @@
 
 .service-card-new:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.3), 0 0 30px rgba(212, 175, 55, 0.2);
-    border-color: rgba(212, 175, 55, 0.5);
+    box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 95, 0, 0.2);
+    border-color: rgba(255, 95, 0, 0.5);
 }
 
 .service-card-image {
@@ -197,7 +197,7 @@
     margin-bottom: 0.75rem;
     padding: 0.25rem 0.75rem;
     border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 2px 4px rgba(255, 95, 0, 0.3);
 }
 
 .service-desc {

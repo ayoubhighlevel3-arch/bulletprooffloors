@@ -2297,7 +2297,7 @@ footer a:hover {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 4px;
-  box-shadow: 0 4px 10px rgba(212, 175, 55, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 95, 0, 0.2);
 }
 
 .mission-results-section .section-header h2 {
@@ -2352,7 +2352,7 @@ footer a:hover {
   cursor: ew-resize;
   border-radius: 8px;
   box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(212, 175, 55, 0.4);
+  border: 1px solid rgba(255, 95, 0, 0.4);
 }
 
 .comp-img {
@@ -2579,7 +2579,7 @@ footer a:hover {
   }
 
   .carousel-arrow {
-    background: rgba(212, 175, 55, 0.2);
+    background: rgba(255, 95, 0, 0.2);
     border: 2px solid #FF5F00;
     width: 44px;
     height: 44px;
@@ -2628,7 +2628,7 @@ footer a:hover {
     background: #FF5F00;
     width: 12px;
     height: 12px;
-    box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+    box-shadow: 0 0 10px rgba(255, 95, 0, 0.5);
   }
 
 }

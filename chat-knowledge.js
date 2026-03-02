@@ -61,7 +61,7 @@ const chatKnowledgeBase = [
   // --- Service Areas ---
   {
     keywords: ['where', 'area', 'location', 'cover', 'san angelo', 'menard', 'midland', 'abilene', 'texas', 'fl', 'west texas'],
-    answer: "We proudly serve **West Texas**! \n📍 San Angelo, TX \n📍 Menard, FL \n📍 Midland, FL \n...and communities within a 50-mile radius.",
+    answer: "We proudly serve **West Texas**! \n📍 San Angelo, TX \n📍 Menard, TX \n📍 Midland, TX \n...and communities within a 50-mile radius.",
     followUp: true
   },
 

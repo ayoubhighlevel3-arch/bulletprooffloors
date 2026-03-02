@@ -31,7 +31,7 @@
 
 .accordion-item-modern:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
-    border-color: rgba(212, 175, 55, 0.3);
+    border-color: rgba(255, 95, 0, 0.3);
 }
 
 .accordion-item-modern.active {
@@ -136,8 +136,8 @@
     background-color: #141414;
     /* Deeper Charcoal */
     background-image:
-        radial-gradient(circle at 15% 50%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at 85% 80%, rgba(212, 175, 55, 0.05) 0%, transparent 40%);
+        radial-gradient(circle at 15% 50%, rgba(255, 95, 0, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(255, 95, 0, 0.05) 0%, transparent 40%);
     text-align: center;
     border-top: 1px solid #222;
 }
@@ -154,7 +154,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 4px;
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.25);
+    box-shadow: 0 4px 15px rgba(255, 95, 0, 0.25);
 }
 
 .whats-next-section h2 {
@@ -185,7 +185,7 @@
     background: linear-gradient(180deg, #262420 0%, #1F1D1A 100%);
     /* Rich Gradient Surface */
     border-radius: 12px;
-    border: 1px solid rgba(212, 175, 55, 0.15);
+    border: 1px solid rgba(255, 95, 0, 0.15);
     /* Subtle Gold Tint */
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
@@ -235,8 +235,8 @@
 
 .next-step-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.15);
-    border-color: rgba(212, 175, 55, 0.6);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 95, 0, 0.15);
+    border-color: rgba(255, 95, 0, 0.6);
     background: linear-gradient(180deg, #1A1C24 0%, #1A1C24 100%);
 }
 
