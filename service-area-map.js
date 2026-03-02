@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', function () {
     maxZoom: 19
   }).addTo(map);
 
-  // Add 50-mile radius circle (50 miles = 80467.2 meters)
+  // Add 100-mile radius circle (100 miles = 160934.4 meters)
   const serviceRadius = L.circle(sanAngeloCoords, {
     color: '#FF5F00',       // Impact Orange border
     fillColor: '#FF5F00',   // Impact Orange fill
     fillOpacity: 0.15,
     weight: 3,
-    radius: 80467.2         // 50 miles in meters
+    radius: 160934.4         // 100 miles in meters
   }).addTo(map);
 
   // Add center marker for San Angelo
