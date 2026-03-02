@@ -2,122 +2,122 @@ const reviewsData = [
     {
         name: "Shawn Patterson",
         date: "2 months ago",
-        text: "I hired Bulletproof Floors to clean and organize my garage. I had a great experience from beginning to end. Andrew completely educated me about the process and provided timely updates throughout. The two-person team arrived on time, were very professional, and thoroughly cleaned and organized my entire garage. They set aside items I no longer wanted and organized everything else in a way I never would have thought of. Everything was neat and clean, including the garage shelves. This was money well spent, and I wouldn’t hesitate to hire Bulletproof Floors again."
+        text: "I hired Bulletproof Floors to coat my garage floor. I had a great experience from beginning to end. Frank completely educated me about the process and provided timely updates throughout. The two-person team arrived on time, were very professional, and delivered a showroom-quality finish. This was money well spent, and I wouldn't hesitate to hire Bulletproof Floors again."
     },
     {
         name: "Brittany Jenkins",
         date: "3 years ago",
-        text: "I would like to say thank you to Bulletproof Floors for their outstanding work. I was initially reluctant due to Yelp reviews. I spoke with Andrew, who allowed me to pay COD and assured me the company was professional. The crew arrived on time, were courteous, professional, and completed the job efficiently. My husband was impressed and couldn’t believe how clean the garage was. I’m very glad we chose Bulletproof Floors."
+        text: "I would like to say thank you to Bulletproof Floors for their outstanding work. I was initially researching a few companies and chose them based on how helpful Frank was on the phone. The crew arrived on time, were courteous, professional, and completed the job efficiently. My husband was impressed and couldn't believe how great the garage floor looked. I'm very glad we chose Bulletproof Floors."
     },
     {
         name: "Michele Harris",
         date: "3 years ago",
-        text: "I found the business online. It took some coordination, and I was hesitant at first, even after the crew arrived. However, Naeem and Michele were pleasant and professional, and I was very pleased with the results."
+        text: "I found the business online. It took some coordination, and I was hesitant at first, even after the crew arrived. However, the team was pleasant and professional, and I was very pleased with the results."
     },
     {
         name: "Kristin Felgenauer",
         date: "5 months ago",
-        text: "I had a great experience with the local Michigan team. Pricing was fair, the work was excellent, and they were able to come the next day. Highly recommend Bulletproof Floors for tough garage cleanouts."
+        text: "I had a great experience with the Bulletproof Floors team. Pricing was fair, the work was excellent, and they were able to come the next day. Highly recommend Bulletproof Floors for garage floor coatings."
     },
     {
         name: "Kristen Thompson",
         date: "4 years ago",
-        text: "I can’t believe this is my garage—I can see the floor again. We recently remodeled and had no time to organize. Bulletproof Floors was professional and easy to work with, and they completely transformed the space."
+        text: "I can't believe this is my garage—the floor looks amazing. We recently remodeled and needed the floors done quickly. Bulletproof Floors was professional and easy to work with, and they completely transformed the space."
     },
     {
         name: "Adriana Simon",
         date: "2 years ago",
-        text: "I’ve used Bulletproof Floors to clean my garage and it was excellent. They removed everything, cleaned inside, and put everything back in order. The best service."
+        text: "I've used Bulletproof Floors to coat my garage and it was excellent. They prepped everything properly, applied the coating, and the results are stunning. The best service."
     },
     {
         name: "Janet Rodriguez",
         date: "11 months ago",
-        text: "Andrew is great. He accurately estimated the time needed and completed the garage organization efficiently based on our layout. Very satisfied."
+        text: "Frank is great. He accurately estimated the time needed and completed the garage floor coating efficiently based on our layout. Very satisfied."
     },
     {
-        name: "Frank Brady",
+        name: "Mike Brady",
         date: "2 years ago",
-        text: "We initially had a scheduling issue, which made me hesitant. Once resolved, the team exceeded expectations. They were punctual and did exceptional work. My garage is now clean and spacious enough for two cars."
+        text: "We initially had a scheduling issue, which made me hesitant. Once resolved, the team exceeded expectations. They were punctual and did exceptional work. My garage floor now looks like a showroom."
     },
     {
         name: "Lisa Miller",
         date: "4 years ago",
-        text: "We had a silver cleaning service with a floor power wash. The team arrived on time and did a great job. The garage is clean, fresh, and more organized than before. We would definitely use Bulletproof Floors again."
+        text: "We had the premium coating system done with a metallic finish. The team arrived on time and did a great job. The garage floor is clean, fresh, and looks better than we imagined. We would definitely use Bulletproof Floors again."
     },
     {
         name: "J Jolly",
         date: "4 years ago",
-        text: "So worth it. Andrew communicated well and helped schedule around my availability. Jeffery arrived on time and worked extremely hard for over three hours in intense heat. Very happy with the result."
+        text: "So worth it. Frank communicated well and helped schedule around my availability. The crew arrived on time and worked extremely hard. Very happy with the result."
     },
     {
         name: "Jhanina Santiago",
         date: "3 years ago",
-        text: "Nahim and Michele did an excellent job cleaning and organizing my overwhelming garage. They arrived early, were professional, and followed my instructions. The Diamond package with the wash was worth every penny. The service was reasonably priced and exceeded expectations."
+        text: "The team did an excellent job coating my garage floor. They arrived on time, were professional, and followed my instructions on the color and finish. The polyaspartic topcoat was worth every penny. The service was reasonably priced and exceeded expectations."
     },
     {
         name: "Tona Coley",
         date: "4 years ago",
-        text: "Andrew and his team transformed my hazardous and depressing garage into a clean and organized space in just a few hours. I can now park my car inside. My neighbor even said he had “garage envy.” Highly recommend Bulletproof Floors."
+        text: "Frank and his team transformed my dull, stained garage floor into a clean and polished surface in just one day. I can now park my car on a showroom-quality floor. My neighbor even said he had 'floor envy.' Highly recommend Bulletproof Floors."
     },
     {
         name: "Christopher Meekins",
         date: "2 years ago",
-        text: "We want to thank Naeem and Michelle for the excellent job cleaning and organizing our garage. They worked nonstop and went above and beyond. Very professional and highly recommended."
+        text: "We want to thank the crew for the excellent job coating our garage floor. They worked nonstop and went above and beyond. Very professional and highly recommended."
     },
     {
         name: "Mario Martinez",
         date: "Edited 2 years ago",
-        text: "Bulletproof Floors turned my garage into an actual garage again. The process was much quicker and easier than expected. I don’t usually write reviews, but the results exceeded my expectations."
+        text: "Bulletproof Floors transformed my garage floor into something I'm truly proud of. The process was much quicker and easier than expected. I don't usually write reviews, but the results exceeded my expectations."
     },
     {
         name: "Ileana Carlisle",
         date: "3 years ago",
-        text: "Excellent service—timely and thorough. The garage was left clean and organized. Andrew and the team were extremely professional and offered excellent customer service."
+        text: "Excellent service—timely and thorough. The garage floor was left looking incredible. Frank and the team were extremely professional and offered excellent customer service."
     },
     {
         name: "Juan Toro",
         date: "5 years ago",
-        text: "Bulletproof Floors did a great job as advertised. They emptied the garage, cleaned thoroughly, and put everything back neatly. Very professional, and I would use them again."
+        text: "Bulletproof Floors did a great job as advertised. They prepped the concrete properly, applied the coating, and the result is flawless. Very professional, and I would use them again."
     },
     {
         name: "OJ McDuffie",
         date: "3 years ago",
-        text: "Andrew and his team at Bulletproof Floors were amazing. My garage hasn’t looked this good in 25 years. Zero complaints and outstanding work."
+        text: "Frank and his team at Bulletproof Floors were amazing. My garage floor hasn't looked this good in 25 years. Zero complaints and outstanding work."
     },
     {
         name: "Julia Greenberg",
         date: "2 years ago",
-        text: "Had an excellent experience with Naeem and his partner. Punctual, organized, hardworking, and pleasant. They worked in extreme heat and cleaned everything to perfection."
+        text: "Had an excellent experience with the crew. Punctual, organized, hardworking, and pleasant. They worked efficiently and the coating came out perfect."
     },
     {
         name: "Kristy Figueras",
         date: "4 years ago",
-        text: "After an injury prevented me from cleaning, Bulletproof Floors came through. Andrew and Penny were friendly, professional, and patient. My garage is now organized and stress-free."
+        text: "After an injury prevented me from doing home projects, Bulletproof Floors came through. Frank was friendly, professional, and patient. My garage floor is now beautiful and stress-free to maintain."
     },
     {
         name: "Kyle Saniga",
         date: "2 years ago",
-        text: "Andrew and crew arrived on time and worked with me to sort unwanted items. They gave me clarity and organization in under two hours. Great service."
+        text: "Frank and crew arrived on time and walked me through every step. They gave me a stunning floor in under two hours of install time. Great service."
     },
     {
         name: "Lucas Hampel",
         date: "3 years ago",
-        text: "The company initially had to reschedule, which I understand. When they arrived, they did a fabulous job. My garage went from unusable to fully functional."
+        text: "The company initially had to reschedule, which I understand. When they arrived, they did a fabulous job. My garage went from a dull gray slab to a fully polished showroom floor."
     },
     {
         name: "Sharon Cahoon",
         date: "2 years ago",
-        text: "Fantastic, prompt, courteous, and professional service. Bulletproof Floors transformed my garage quickly for a house showing with little notice."
+        text: "Fantastic, prompt, courteous, and professional service. Bulletproof Floors transformed my garage floor quickly before a house showing with little notice."
     },
     {
         name: "Theresa Howard",
         date: "5 years ago",
-        text: "My garage was full of clutter. Bulletproof Floors removed items, cleaned, and helped me purge unwanted belongings. I felt comfortable trusting them with sentimental items."
+        text: "My garage floor was stained and cracked. Bulletproof Floors repaired it, coated it, and it now looks brand new. I felt comfortable trusting them in my home."
     },
     {
         name: "David Wright",
         date: "2 years ago",
-        text: "The workers were very professional and did a great job. I can finally use my garage again. Would absolutely recommend Bulletproof Floors."
+        text: "The workers were very professional and did a great job. My garage floor looks incredible. Would absolutely recommend Bulletproof Floors."
     }
 ];
 
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function initUpdates(container, isCarousel) {
         const createReviewCard = (review) => {
             const card = document.createElement('div');
-            card.className = 'review-card'; // Updated class to match CSS
+            card.className = 'review-card';
 
             const MAX_LENGTH = 120;
             const isLong = review.text.length > MAX_LENGTH;
@@ -181,7 +181,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             setupCarouselLogic(container);
         } else {
-            // Grid logic: Show 6 initially, then View More
             const initialCount = 6;
             const shownReviews = reviewsData.slice(0, initialCount);
             const hiddenReviews = reviewsData.slice(initialCount);
@@ -196,29 +195,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 btnContainer.style.width = '100%';
                 btnContainer.style.marginTop = '3rem';
 
-                // Button Styles
                 const btn = document.createElement('button');
                 btn.textContent = 'View More';
-                // Inline styles to match typical primary button if class isn't enough, 
-                // but we use .btn-cta which likely exists.
                 btn.className = 'btn btn-cta';
 
                 btn.addEventListener('click', () => {
                     hiddenReviews.forEach(review => {
                         container.appendChild(createReviewCard(review));
                     });
-                    btnContainer.remove(); // Remove button after clicking
+                    btnContainer.remove();
                 });
 
                 btnContainer.appendChild(btn);
-                // Insert after the grid container
                 container.parentNode.appendChild(btnContainer);
             }
         }
-
-        // Common Event Listener for Read More
-        // Note: For dynamically added content, we need to ensure this still works. 
-        // Since we verify classList on click, it delegates fine.
 
         container.addEventListener('click', (e) => {
             if (e.target.classList.contains('read-more-btn')) {
@@ -227,7 +218,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const fullText = textEl.getAttribute('data-full');
                 const truncatedText = textEl.getAttribute('data-truncated');
 
-                // Collapse others
                 if (!btn.classList.contains('expanded')) {
                     const expandedBtns = container.querySelectorAll('.read-more-btn.expanded');
                     expandedBtns.forEach(b => {
@@ -239,12 +229,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 if (btn.classList.contains('expanded')) {
-                    // Collapse
                     textEl.textContent = truncatedText;
                     btn.textContent = 'Read more';
                     btn.classList.remove('expanded');
                 } else {
-                    // Expand
                     textEl.textContent = fullText;
                     btn.textContent = 'Read less';
                     btn.classList.add('expanded');
@@ -275,13 +263,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const stopAutoScroll = () => clearInterval(scrollInterval);
 
-        // Interaction Handlers
         container.addEventListener('mouseenter', () => isInteract = true);
         container.addEventListener('mouseleave', () => isInteract = false);
         container.addEventListener('touchstart', () => isInteract = true, { passive: true });
         container.addEventListener('touchend', () => setTimeout(() => isInteract = false, 1200));
 
-        // Auto-collapse on scroll
         container.addEventListener('scroll', () => {
             if (isInteract) {
                 const expandedBtns = container.querySelectorAll('.read-more-btn.expanded');
@@ -296,7 +282,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Observer
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => entry.isIntersecting ? startAutoScroll() : stopAutoScroll());
         }, { threshold: 0.1 });
