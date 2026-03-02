@@ -1,28 +1,28 @@
 :root {
   /* Bulletproof Floors Brand Palette */
-  --color-navy: #0F1117;
+  --color-navy: #141414;
   /* Bulletproof Black - headers, nav, footer */
-  --color-blue: #1A1C24;
+  --color-blue: #1a1a1a;
   /* Surface dark */
-  --color-blue-hover: #FF9F1C;
+  --color-blue-hover: #e19c29;
   /* Bullet Spark on hover */
-  --color-highlight: #FF9F1C;
+  --color-highlight: #e19c29;
   /* Bullet Spark highlight */
   --color-light-highlight: #A9A9A9;
   /* Polished Gray */
 
   /* CTA Accent */
-  --color-volt: #FF5F00;
+  --color-volt: #f59413;
   /* Impact Orange (primary CTA) */
   --color-volt-text: #FFFFFF;
   /* White text on orange */
-  --color-gold: #FF9F1C;
+  --color-gold: #e19c29;
   /* Bullet Spark for stars/accents/icons */
 
   /* Neutrals */
-  --color-text-main: #0F1117;
+  --color-text-main: #141414;
   /* Primary Text (dark on light bg) */
-  --color-text-muted: #5F5F5F;
+  --color-text-muted: #a8a8a8;
   /* Raw Concrete muted text */
   --color-border: #E0DDD6;
   /* Warm border */
@@ -35,7 +35,7 @@
   --color-white: #FFFFFF;
   --color-wolf: #A9A9A9;
   /* Polished Gray */
-  --color-graphite: #0F1117;
+  --color-graphite: #141414;
   /* Dark text */
   --color-mist: #E0DDD6;
   /* Warm border/divider */
@@ -226,7 +226,7 @@ section {
 
 /* Header */
 header {
-  background-color: #0F1117;
+  background-color: #141414;
   /* Bulletproof Black */
   position: sticky;
   top: 0;
@@ -234,7 +234,7 @@ header {
 }
 
 .top-bar {
-  background-color: #0F1117;
+  background-color: #141414;
   /* Bulletproof Black */
   color: #A9A9A9;
   /* Polished Gray text */
@@ -385,7 +385,7 @@ nav .btn-cta {
 
 /* Footer */
 footer {
-  background-color: #0F1117;
+  background-color: #141414;
   /* Bulletproof Black */
   color: #A9A9A9;
   /* Polished Gray muted text */
@@ -644,7 +644,7 @@ footer a:hover {
     right: 0;
     bottom: 0;
     /* Full height */
-    background: #0F1117;
+    background: #141414;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     padding: 0;
     z-index: 9998;
@@ -1095,7 +1095,7 @@ footer a:hover {
 .section-badge {
   display: inline-block;
   padding: 4px 12px;
-  background-color: rgba(255, 95, 0, 0.1);
+  background-color: rgba(245, 148, 19, 0.1);
   color: var(--color-volt);
   border-radius: 4px;
   font-size: 0.75rem;
@@ -1113,7 +1113,7 @@ footer a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle at 10% 20%, rgba(255, 159, 28, 0.05) 0%, transparent 20%);
+  background-image: radial-gradient(circle at 10% 20%, rgba(225, 156, 41, 0.05) 0%, transparent 20%);
   /* Bullet Spark hint */
   pointer-events: none;
 }
@@ -1574,7 +1574,7 @@ footer a:hover {
 
 /* CTA Banner */
 .cta-banner {
-  background: linear-gradient(135deg, #1A1C24 0%, #0F1117 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #141414 100%);
   /* Bulletproof Black gradient */
   padding: 2rem 0;
   text-align: center;
@@ -1590,7 +1590,7 @@ footer a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle at 20% 50%, rgba(255, 95, 0, 0.15) 0%, transparent 50%);
+  background-image: radial-gradient(circle at 20% 50%, rgba(245, 148, 19, 0.15) 0%, transparent 50%);
   /* Impact Orange accent */
   pointer-events: none;
 }
@@ -2267,13 +2267,13 @@ footer a:hover {
 
 /* Mission Results Section (Before & After) */
 .mission-results-section {
-  background-color: #0F1117;
+  background-color: #141414;
   /* Bulletproof Black — required so white text is visible */
   padding: 3.2rem 0 4rem 0;
   position: relative;
   background-image:
-    radial-gradient(circle at 10% 20%, rgba(255, 159, 28, 0.07) 0%, transparent 40%),
-    radial-gradient(circle at 90% 80%, rgba(255, 159, 28, 0.07) 0%, transparent 40%);
+    radial-gradient(circle at 10% 20%, rgba(225, 156, 41, 0.07) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(225, 156, 41, 0.07) 0%, transparent 40%);
 }
 
 /* Hide mobile carousel navigation on desktop */
@@ -2286,7 +2286,7 @@ footer a:hover {
 }
 
 .mission-results-section .section-badge {
-  background: #FF5F00;
+  background: #f59413;
   color: #1A1A1A;
   border-left: none;
   display: inline-block;
@@ -2297,7 +2297,7 @@ footer a:hover {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 4px;
-  box-shadow: 0 4px 10px rgba(255, 95, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(245, 148, 19, 0.2);
 }
 
 .mission-results-section .section-header h2 {
@@ -2352,7 +2352,7 @@ footer a:hover {
   cursor: ew-resize;
   border-radius: 8px;
   box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(255, 95, 0, 0.4);
+  border: 1px solid rgba(245, 148, 19, 0.4);
 }
 
 .comp-img {
@@ -2411,7 +2411,7 @@ footer a:hover {
 
 .after-label {
   right: 0.75rem;
-  background: #FF5F00;
+  background: #f59413;
   color: #1A1A1A;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -2579,8 +2579,8 @@ footer a:hover {
   }
 
   .carousel-arrow {
-    background: rgba(255, 95, 0, 0.2);
-    border: 2px solid #FF5F00;
+    background: rgba(245, 148, 19, 0.2);
+    border: 2px solid #f59413;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -2589,12 +2589,12 @@ footer a:hover {
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s ease;
-    color: #FF5F00;
+    color: #f59413;
     padding: 0;
   }
 
   .carousel-arrow:active {
-    background: #FF5F00;
+    background: #f59413;
     color: #1A1A1A;
     transform: scale(0.95);
   }
@@ -2625,10 +2625,10 @@ footer a:hover {
   }
 
   .carousel-dot.active {
-    background: #FF5F00;
+    background: #f59413;
     width: 12px;
     height: 12px;
-    box-shadow: 0 0 10px rgba(255, 95, 0, 0.5);
+    box-shadow: 0 0 10px rgba(245, 148, 19, 0.5);
   }
 
 }

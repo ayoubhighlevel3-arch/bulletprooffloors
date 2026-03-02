@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Add 100-mile radius circle (100 miles = 160934.4 meters)
   const serviceRadius = L.circle(sanAngeloCoords, {
-    color: '#FF5F00',       // Impact Orange border
-    fillColor: '#FF5F00',   // Impact Orange fill
+    color: '#f59413',       // Impact Orange border
+    fillColor: '#f59413',   // Impact Orange fill
     fillOpacity: 0.15,
     weight: 3,
     radius: 160934.4         // 100 miles in meters

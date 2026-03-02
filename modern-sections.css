@@ -31,12 +31,12 @@
 
 .accordion-item-modern:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
-    border-color: rgba(255, 95, 0, 0.3);
+    border-color: rgba(245, 148, 19, 0.3);
 }
 
 .accordion-item-modern.active {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    border-color: #FF5F00;
+    border-color: #f59413;
 }
 
 .accordion-header-modern {
@@ -56,7 +56,7 @@
 
 .accordion-header-modern:hover {
     background: #F9FAFB;
-    color: #FF5F00;
+    color: #f59413;
 }
 
 .accordion-icon {
@@ -74,7 +74,7 @@
 }
 
 .accordion-item-modern.active .accordion-icon {
-    background: #FF5F00;
+    background: #f59413;
     color: white;
     transform: rotate(45deg);
     /* Rotates the plus to an X if using plus/minus logic, or 180 if using carets. Assuming plus here. */
@@ -136,15 +136,15 @@
     background-color: #141414;
     /* Deeper Charcoal */
     background-image:
-        radial-gradient(circle at 15% 50%, rgba(255, 95, 0, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at 85% 80%, rgba(255, 95, 0, 0.05) 0%, transparent 40%);
+        radial-gradient(circle at 15% 50%, rgba(245, 148, 19, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(245, 148, 19, 0.05) 0%, transparent 40%);
     text-align: center;
     border-top: 1px solid #222;
 }
 
 /* Badge Style - Premium Gold */
 .whats-next-section .section-badge {
-    background: linear-gradient(135deg, #FF5F00 0%, #E55500 100%);
+    background: linear-gradient(135deg, #f59413 0%, #d4820f 100%);
     color: #0F0F0F;
     display: inline-block;
     padding: 0.4rem 1.25rem;
@@ -154,7 +154,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 4px;
-    box-shadow: 0 4px 15px rgba(255, 95, 0, 0.25);
+    box-shadow: 0 4px 15px rgba(245, 148, 19, 0.25);
 }
 
 .whats-next-section h2 {
@@ -185,7 +185,7 @@
     background: linear-gradient(180deg, #262420 0%, #1F1D1A 100%);
     /* Rich Gradient Surface */
     border-radius: 12px;
-    border: 1px solid rgba(255, 95, 0, 0.15);
+    border: 1px solid rgba(245, 148, 19, 0.15);
     /* Subtle Gold Tint */
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
@@ -235,9 +235,9 @@
 
 .next-step-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 95, 0, 0.15);
-    border-color: rgba(255, 95, 0, 0.6);
-    background: linear-gradient(180deg, #1A1C24 0%, #1A1C24 100%);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(245, 148, 19, 0.15);
+    border-color: rgba(245, 148, 19, 0.6);
+    background: linear-gradient(180deg, #1a1a1a 0%, #1a1a1a 100%);
 }
 
 .next-step-card:hover .next-step-image img {
@@ -415,7 +415,7 @@
     justify-content: center;
     width: 20px;
     height: 20px;
-    background: #FF5F00;
+    background: #f59413;
     /* Metallic Gold */
     color: #1A1A1A;
     /* Dark text */
