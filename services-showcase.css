@@ -3,11 +3,11 @@
    ========================================= */
 .services-showcase {
     padding: 4.25rem 0 5rem 0;
-    background-color: #1A1A1A;
-    /* Standard Dark */
+    background-color: #0F1117;
+    /* Bulletproof Black */
     background-image:
-        radial-gradient(circle at 20% 50%, rgba(255, 95, 0, 0.03) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(255, 95, 0, 0.03) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(255, 95, 0, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255, 95, 0, 0.05) 0%, transparent 50%);
 }
 
 /* Services Section Header - Solid Gold Style (Matches NEXT STEPS) */
@@ -43,12 +43,10 @@
 .services-showcase .section-header p {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    /* Smaller as requested */
-    color: var(--color-graphite);
-    /* Matches Mission style */
+    color: #A9A9A9;
+    /* Polished Gray — visible on dark bg */
     line-height: 1.6;
     margin-bottom: 2.5rem;
-    /* Tighter gap to grid */
     margin-top: 0;
     max-width: 600px;
     margin-left: auto;
