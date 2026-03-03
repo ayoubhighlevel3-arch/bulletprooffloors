@@ -14,7 +14,7 @@
   /* CTA Accent */
   --color-volt: #f59413;
   /* Impact Orange (primary CTA) */
-  --color-volt-text: #FFFFFF;
+  --color-volt-text: #141414;
   /* White text on orange */
   --color-gold: #e19c29;
   /* Bullet Spark for stars/accents/icons */
@@ -674,8 +674,8 @@ footer a:hover {
   nav a {
     padding: 1.25rem 1.5rem;
     width: 100%;
-    color: var(--color-text-main) !important;
-    /* Force dark text explicitly */
+    color: #FFFFFF !important;
+    /* White text on dark mobile nav bg */
     background-color: transparent;
     font-weight: 500;
     font-size: 1.1rem;
@@ -713,7 +713,7 @@ footer a:hover {
   nav .btn-cta:hover,
   nav .btn-cta.active {
     background-color: var(--color-volt) !important;
-    color: #FFFFFF !important;
+    color: #141414 !important;
     border-left: none;
     border-radius: 4px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
