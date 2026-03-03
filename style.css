@@ -1121,8 +1121,54 @@ footer a:hover {
 .about-grid {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
-  gap: 6rem;
+  gap: 4rem;
+  align-items: start;
+  /* Pin both columns to top so image sits flush with heading */
+}
+
+/* Right column: image top, caption bottom */
+.about-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Caption card below image */
+.about-image-caption {
+  display: flex;
   align-items: center;
+  gap: 1rem;
+  background: #FFFFFF;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid var(--color-volt);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.caption-icon {
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.caption-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.caption-text strong {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #141414;
+  line-height: 1.2;
+}
+
+.caption-text span {
+  font-size: 0.8rem;
+  color: #6b7280;
+  letter-spacing: 0.3px;
 }
 
 .section-badge {
@@ -1252,6 +1298,10 @@ footer a:hover {
     aspect-ratio: 16 / 9;
     /* Wider on mobile for better fit */
     max-height: 280px;
+  }
+
+  .about-image-caption {
+    order: 3;
   }
 
   .image-backdrop {
