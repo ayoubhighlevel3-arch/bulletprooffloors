@@ -1131,7 +1131,7 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  height: 100%;
+  height: auto;
 }
 
 .about-bonus-text {
@@ -1143,8 +1143,9 @@ footer a:hover {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-right: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  margin-top: auto;
-  /* Pushes it to the bottom of the grid cell */
+  margin-top: 1rem;
+  position: relative;
+  z-index: 5;
 }
 
 .about-bonus-text h3 {
@@ -1292,6 +1293,12 @@ footer a:hover {
     aspect-ratio: 16 / 9;
     /* Wider on mobile for better fit */
     max-height: 280px;
+    margin-bottom: 1rem;
+  }
+
+  .about-bonus-text {
+    padding: 1.5rem;
+    margin-top: 0;
   }
 
   .image-backdrop {
