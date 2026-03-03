@@ -1120,7 +1120,8 @@ footer a:hover {
 
 .about-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1.25fr 0.75fr;
+  /* Shrinks the right column (image) and gives more text space */
   gap: 4rem;
   /* Reduced from 6rem to tighten the layout */
   align-items: stretch;
@@ -1234,7 +1235,8 @@ footer a:hover {
   overflow: hidden;
   /* Controlled aspect ratio so image always looks proportional */
   aspect-ratio: 4 / 3;
-  max-height: 480px;
+  max-height: 400px;
+  /* Reduced from 480px to make image smaller on desktop */
 }
 
 .image-backdrop {
@@ -1297,8 +1299,8 @@ footer a:hover {
   }
 
   .about-bonus-text {
-    padding: 1.5rem;
-    margin-top: 0;
+    display: none;
+    /* Hidden on mobile completely */
   }
 
   .image-backdrop {
