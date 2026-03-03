@@ -1133,13 +1133,7 @@ footer a:hover {
   gap: 1.5rem;
   height: auto;
   padding-top: 2.5rem;
-  /* ~10% offset — shifts image+card down on desktop (homepage only) */
-}
-
-/* Remove offset on the About page 'Our Story' section where there is no card below */
-.story-section .about-right-column {
-  padding-top: 0;
-  justify-content: flex-start;
+  /* ~10% offset — shifts image+card down on desktop */
 }
 
 .about-bonus-text {
